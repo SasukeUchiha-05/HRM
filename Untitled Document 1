@@ -1,0 +1,26 @@
+track employees attendance.
+
+which inturn decides their payrolls.
+
+and they want a dashboard app to see all employees.
+
+same computer, localhost.
+aws 1 vm.
+
+frontend, backend.
+
+frontend -> backend url == localhost:9090.
+backend cors: loaclhost:5173
+
+
+services.
+
+
+2 vm.
+
+frontend, backend, t3 medium.
+
+2 t4 micro.
+
+frontend -> backend vm. ip <backend-vm-ip>:9090
+backend. -> frontend vm. ip <frontend-vm-ip>:5173
